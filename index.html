@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/login.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
@@ -20,7 +21,20 @@
                 <p>Bem-vindo(a) novamente. Faça o seu login para entrar e poder fazer suas configuraçoes no seu ambiente.</p>
             </article>
             <form action="login.php" method="post" autocomplete="on"></form>
+            <div class="campo">
+                <i class="material-symbols-outlined">person</i>
+                <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30"> 
+                <label for="ilogin">Login</label>
+            </div>
+            
+            <div class="campo">
+                <i class="material-symbols-outlined">vpn_key</i>
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8" maxlenght="20" > 
+                <label for="isenha">Senha</label>
+            </div>
+                <input type="submit" value="Entrar">
+                <a href="esqueci.html">Esqueceu a senha? <i class="material-symbols-outlined">mail</i></a>
         </section>
     </main>
 </body>
-</html>
+</htin8maxlenght="20" h
