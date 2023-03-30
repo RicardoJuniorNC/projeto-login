@@ -27,8 +27,8 @@ main {
 
 section#login {
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 290px;
+    height: 560px;
     border-radius: 20px;
     box-shadow: opx 0px 10px rgba(0, 0, 0, 0.700);
     transition: width 0.3s, height 0.3s;
